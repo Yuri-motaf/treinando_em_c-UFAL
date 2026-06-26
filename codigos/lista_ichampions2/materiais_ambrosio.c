@@ -1,0 +1,36 @@
+/*Descrição
+Ambrósio está prosperando e agora ele precisa comprar materiais para ampliar a sua mercearia, ele fez uma lista com os itens que ele deve comprar. No entanto ele não dispõe de dinheiro suficiente para comprar todos os itens da lista de uma vez, então ele pediu a sua ajuda para comprar o maior número de itens da lista.
+Escreva um programa que dada a lista de materiais, retorne quais itens Ambrósio deve comprar para obter o maior número de itens da lista sobrando o máximo de dinheiro possível.
+
+Formato de entrada
+A primeira linha da entrada contem um número de ponto flutuante D, que representa o dinheiro que Ambrósio dispõe, na segunda linha há um inteiro positivo N < 100 contendo o número de itens da lista, cada uma das N linhas seguintes contém o nome do produto( com menos de 25 caracteres) seguido por um espaço em branco e o preço do produto.
+
+Formato de saída
+A saída deve imprimir uma nova lista em ordem alfabética contendo os produtos que ambrósio deve comprar seguido de seus respectivos preços, a última linha deve imprimir o troco que ambrósio vai receber.
+*/
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+void entradas(int n)
+{
+    if(n == 0) return;
+
+    char iten[100];
+
+}
+
+
+int main() {
+    float D; 
+    scanf("%f" ,&D);
+
+    int N;
+    scanf("%d", &N);
+
+    entradas(N);
+
+    return 0;
+}
